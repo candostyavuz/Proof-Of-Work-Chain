@@ -1,0 +1,68 @@
+html {
+  background-color: white;
+}
+
+body {
+  margin: 10px;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+#effort {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 10px 0;
+  padding: 5px 0;
+  &:before {
+    content: "Elapsed Time: ";
+  }
+}
+
+#chainlength {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 10px 0;
+  padding: 5px 0;
+  &:before {
+    content: "Length: ";
+  }
+}
+
+#balance {
+  border: 1px solid rgb(12, 140, 70);
+  background-color: rgb(213, 242, 222);
+  margin: 10px 0;
+  padding: 5px 0;
+  &:before {
+    content: "Balance: ";
+  }
+}
+#reward {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  margin: 10px 0;
+  padding: 5px 0;
+  &:before {
+    content: "Reward: ";
+  }
+}
+#difficulty {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  margin: 10px 0;
+  padding: 5px 0;
+  &:before {
+    content: "Difficulty: ";
+  }
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
